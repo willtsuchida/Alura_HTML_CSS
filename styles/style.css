@@ -49,7 +49,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -84,24 +84,29 @@ body {
     font-size: 1.5rem;
 }
 
-.apresentacao__links_link {
+.apresentacao__links_navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
-    border-radius: 8px;
+    border: 2px solid var(--cor-terciaria);
+    width: 50%;
     text-align: center;
+    border-radius: 8px;
     font-size: 1.5rem;
+    font-weight: 600;
     padding: 21.5px 0px;
+    text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
-    text-decoration: none;
-    font-weight: 600;
-    border: 2px solid var(--cor-terciaria);
+
 }
 
 .apresentacao__links_link:hover {
     background-color: var(--cor-hover);
+}
+
+.apresentacao__imagem {
+    width: 50%;
 }
 
 .rodape {
